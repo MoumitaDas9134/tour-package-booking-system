@@ -1,0 +1,64 @@
+/* Full-screen Carousel */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  overflow: hidden;
+}
+
+
+/* Login Box Styling */
+.login-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  z-index: 2;
+  position: relative;
+}
+
+
+.login-box {
+  background: rgba(207, 75, 75, 0.9);
+  padding: 40px;
+  border-radius: 12px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.5);
+  max-width: 350px;
+  width: 100%;
+  text-align: center;
+}
+
+
+.login-box .avatar {
+  width: 80px;
+  margin-bottom: 20px;
+}
+
+
+.login-box h2 {
+  margin-bottom: 20px;
+}
+
+
+.login-box input {
+  width: 100%;
+  padding: 10px;
+  margin: 8px 0;
+  border: 1px solid #fa9898;
+  border-radius: 6px;
+}
+
+
+.login-box button {
+  background: #007bff;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  margin-top: 15px;
+}
+
+
+.login-box button:hover {
+  background: #0056b3;
+}

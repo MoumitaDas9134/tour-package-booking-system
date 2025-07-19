@@ -1,0 +1,92 @@
+/* Global reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Segoe UI", sans-serif;
+}
+
+/* Page container */
+body {
+  background-color: #f0f4f8;
+  color: #333;
+  padding: 20px;
+}
+
+/* Centered container */
+.container {
+  max-width: 800px;
+  margin: auto;
+  background: #fff;
+  padding: 25px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px hwb(187 11% 42% / 0.1);
+}
+
+/* Headings */
+h2 {
+  margin-bottom: 20px;
+  color: #72ace5;
+}
+
+/* Form styles */
+form input, form select, form textarea {
+  width: 100%;
+  padding: 10px;
+  margin: 8px 0;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+}
+
+button {
+  background-color: #3498db;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  margin-top: 10px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+button:hover {
+  background-color: #2980b9;
+}
+
+img {
+  border-radius: 10px;
+  margin-top: 10px;
+}
+
+.navbar {
+  background: #2c3e50;
+  padding: 10px 20px;
+  text-align: center;
+}
+
+.navbar a {
+  color: #fff;
+  margin: 0 10px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.navbar a:hover {
+  text-decoration: underline;
+}
+
+/* Table */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+table th, table td {
+  padding: 12px;
+  border: 1px solid #ccc;
+}
+
+table th {
+  background-color: #3498db;
+  color: white;
+}
